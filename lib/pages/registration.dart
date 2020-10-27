@@ -67,7 +67,9 @@ class _RegistrationPageState extends State<RegistrationPage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  "Registration",
+                  "Sign Up",
+                  maxLines: 1,
+                  overflow: TextOverflow.visible,
                   style: TextStyle(
                       fontSize: 50,
                       fontWeight: FontWeight.bold,
